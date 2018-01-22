@@ -1,0 +1,122 @@
+.header {
+  .returnPrev {
+    float: left;
+    display: block;
+    color: #ffffff;
+    font-size: .28rem;
+    padding-left: .26rem;
+    background: url("../img/zuojiantou.png") no-repeat left .11rem;
+    background-size: .19rem .35rem;
+    line-height: .6rem;
+  }
+  .headerTitle {
+    color: #ffffff;
+    font-size: .36rem;
+    line-height: .6rem;
+    float: left;
+    margin-left: 1.8rem;
+  }
+  .moreMenu {
+    float: right;
+    width: .6rem;
+    height: .6rem;
+    button {
+      width: .6rem;
+      height: .6rem;
+      display: block;
+      background: url("../img/bg12.png") no-repeat left;
+      background-size: .59rem .13rem;
+    }
+  }
+}
+
+.content {
+  .menuNav {
+    position: fixed;
+    left: 0;
+    top: .88rem;
+    padding: 0 .2rem;
+    z-index: 999;
+    background: #fff;
+    li {
+      float: left;
+      color: #1a1a1a;
+      font-size: .28rem;
+      margin-right: 1.15rem;
+      line-height: .88rem;
+      &:last-child {
+        margin-right: 0;
+      }
+      &.on {
+        color: #eba51e;
+      }
+    }
+  }
+  .menuMain {
+    margin-top: 1.76rem;
+    .menuList {
+      padding: 0 .2rem;
+      background: #f1f1f1;
+      position: relative;
+      margin-bottom: .3rem;
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        img {
+          width: 2.08rem;
+          height: 2.15rem;
+          float: left;
+        }
+        .menuListRight {
+          float: right;
+          .listTitle {
+            padding-right: .6rem;
+            color: #3c3b3b;
+            font-size: .24rem;
+            text-align: left;
+            width: 4.05rem;
+            line-height: .42rem;
+            padding-top: .12rem;
+          }
+          .proColor{
+            color: #939292;
+            font-size: .24rem;
+            text-align: left;
+            line-height: .34rem;
+            margin-bottom: .1rem;
+          }
+          .number{
+            color: #939292;
+            font-size: .24rem;
+            text-align: left;
+            line-height: .24rem;
+          }
+          .price{
+            color: #f31e1e;
+            text-align: right;
+            font-size: .2rem;
+            span{
+              font-size: .36rem;
+              //line-height: .36rem;
+            }
+          }
+        }
+      }
+      .delete{
+        position: absolute;
+        color: #545454;
+        font-size: .24rem;
+        background: url("../img/bg13.png") no-repeat left;
+        background-size: .2rem .27rem;
+        line-height: .28rem;
+        top: 50%;
+        margin-top: -.14rem;
+        padding-left: .3rem;
+        right: .3rem;
+        z-index: 555;
+      }
+    }
+    padding-bottom: .98rem;
+  }
+}

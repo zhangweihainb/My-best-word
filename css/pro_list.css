@@ -1,0 +1,127 @@
+header {
+  overflow: hidden;
+  height: .9rem;
+  line-height: .9rem;
+  background-color: #4383ef;
+}
+header a {
+  float: left;
+  font-size: .28rem;
+  color: #f2f1f1;
+  padding-left: .38rem;
+  background-image: url("../img/zuojiantou.png");
+  background-size: .19rem .35rem;
+  background-repeat: no-repeat;
+  background-position: 0 .27rem;
+}
+header .search {
+  overflow: hidden;
+  float: left;
+  background: #ffffff;
+  border-radius: .03rem;
+  height: .6rem;
+  margin: .15rem;
+}
+header .search span {
+  float: left;
+  margin-top: .15rem;
+  margin-left: .2rem;
+}
+header .search span img {
+  float: left;
+}
+header .search input {
+  background-color: #ffffff;
+  font-size: .24rem;
+  padding-left: .05rem;
+  float: left;
+  width: 4.3rem;
+  height: .6rem;
+  line-height: .6rem;
+  color: #bcbcbc;
+}
+header .search p {
+  display: inline-block;
+  float: left;
+  margin-top: .15rem;
+  margin-left: .2rem;
+}
+header .search p img {
+  float: left;
+  margin-right: .25rem;
+  margin-top: .03rem;
+}
+header span {
+  float: right;
+  font-size: .28rem;
+  color: #f2f1f1;
+}
+.middle {
+  overflow: hidden;
+}
+.middle .sort {
+  margin-top: .25rem;
+}
+.middle .sort li {
+  float: left;
+  font-size: .3rem;
+  color: #4d4d4d;
+  margin-left: .8rem;
+}
+.middle .sort li:nth-of-type(1) {
+  margin-left: 0;
+  padding-right: .25rem;
+  background-image: url("../img/paixu.png");
+  background-repeat: no-repeat;
+  background-position: 1.27rem .12rem;
+  background-size: .14rem .11rem;
+}
+.middle .sort li:nth-of-type(4) {
+  padding-right: .25rem;
+  background-image: url("../img/shaixuan.png");
+  background-repeat: no-repeat;
+  background-position: .67rem .1rem;
+  background-size: .18rem .18rem;
+}
+.middle .pro-details li {
+  margin-top: .3rem;
+  float: left;
+}
+.middle .pro-details li:nth-of-type(2n) {
+  margin-left: .3rem;
+}
+.middle .pro-details li a {
+  float: left;
+}
+.middle .pro-details li a img {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+.middle .pro-details li p {
+  font-size: .24rem;
+  color: #3b3b3b;
+  width: 3.1rem;
+  margin-left: .08rem;
+}
+.middle .pro-details li i {
+  font-size: .24rem;
+  font-style: normal;
+  color: #fd2727;
+  float: left;
+  margin-top: .1rem;
+}
+.middle .pro-details li i span {
+  font-size: .36rem;
+  color: #fd2727;
+}
+.middle .pro-details li strong {
+  float: right;
+  width: 1.6rem;
+  margin-top: .1rem;
+  height: .3rem;
+  line-height: .3rem;
+  text-align: center;
+  background: #eba51e;
+  color: #ffffff;
+  font-size: .24rem;
+}

@@ -1,0 +1,92 @@
+header {
+  overflow: hidden;
+  height: .9rem;
+  line-height: .9rem;
+  background-color: #4383ef;
+}
+header a {
+  float: left;
+  font-size: .28rem;
+  color: #f2f1f1;
+  padding-left: .38rem;
+  background-image: url("../img/zuojiantou.png");
+  background-size: .19rem .35rem;
+  background-repeat: no-repeat;
+  background-position: 0 .27rem;
+}
+header h5 {
+  display: inline-block;
+  font-size: .36rem;
+  float: left;
+  margin-left: 2rem;
+  color: #ffffff;
+}
+.middle {
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.middle .success {
+  font-size: 0;
+  text-align: center;
+}
+.middle .success img {
+  margin-top: .5rem;
+  width: 2.7rem;
+  height: 2.7rem;
+  margin-left: 2.18rem;
+}
+.middle .success h5 {
+  margin-top: .5rem;
+  font-size: .46rem;
+  color: #3c3c3c;
+}
+.middle .success p {
+  margin-top: .4rem;
+  font-size: .28rem;
+  color: #3c3c3c;
+}
+.middle .information {
+  overflow: hidden;
+  margin-top: .85rem;
+  margin-left: .6rem;
+}
+.middle .information h5 {
+  font-size: .28rem;
+  color: #3c3c3c;
+}
+.middle .information p {
+  margin-top: .35rem;
+  width: 6.5rem;
+  text-align: left;
+  font-size: .24rem;
+  color: #262626;
+}
+.middle .information p:nth-of-type(2) span {
+  margin-left: 1.3rem;
+}
+.middle .information p:nth-of-type(3) span {
+  margin-left: 1.3rem;
+}
+.middle .information p span {
+  margin-left: .8rem;
+  font-size: .24rem;
+  color: #262626;
+}
+.middle button {
+  float: left;
+  width: 2.4rem;
+  height: .8rem;
+  color: #ffffff;
+  outline: none;
+  border-radius: .1rem;
+  background: #e7b51e;
+  line-height: .8rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: .75rem;
+  border: none;
+  font-size: .28rem;
+}
+.middle button:nth-of-type(2) {
+  background: #bebebe;
+}

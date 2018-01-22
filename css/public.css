@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: '微软雅黑';
+  background-color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:active {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img {
+  display: block;
+  border: none;
+}
+input {
+  border: none;
+  background: none;
+  outline: none;
+  display: block;
+}
+textarea {
+  resize: none;
+  border: none;
+  background: none;
+  outline: none;
+  display: block;
+}
+button {
+  border: none;
+  background: none;
+  outline: none;
+  display: block;
+}
+.clearFix:before,
+.clearFix:after {
+  content: '';
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
+.container {
+  padding: .0rem .20rem;
+  overflow: hidden;
+}

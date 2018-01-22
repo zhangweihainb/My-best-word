@@ -1,0 +1,175 @@
+header {
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  background-image: url("../img/touxiang.png");
+  background-repeat: no-repeat;
+  background-size: 7.5rem 3rem;
+}
+header img {
+  width: 1.6rem;
+  height: 1.6rem;
+  padding-top: .25rem;
+  margin-left: 2.9rem;
+}
+header p {
+  font-size: .32rem;
+  color: black;
+}
+.middle {
+  overflow: hidden;
+}
+.middle .order {
+  overflow: hidden;
+  height: .75rem;
+  line-height: .75rem;
+}
+.middle .order a {
+  overflow: hidden;
+}
+.middle .order a h6 {
+  font-weight: normal;
+  float: left;
+  font-size: .32rem;
+  color: #393939;
+  display: inline-block;
+  padding-left: .55rem;
+  background-image: url("../img/dingdan.png");
+  background-repeat: no-repeat;
+  background-size: .37rem .37rem;
+  background-position: 0 .22rem;
+}
+.middle .order a span {
+  font-size: .24rem;
+  color: #757575;
+  display: inline-block;
+  float: right;
+  padding-right: .60rem;
+  background-image: url("../img/jiantou.png");
+  background-repeat: no-repeat;
+  background-size: .16rem .3rem;
+  background-position: 1.87rem .23rem;
+}
+.middle .order-details {
+  overflow: hidden;
+  height: 1.1rem;
+  background-color: #f1f1f1;
+  line-height: 0.4rem;
+}
+.middle .order-details li {
+  float: left;
+  overflow: hidden;
+  width: 1.1rem;
+  text-align: center;
+  margin-left: .3rem;
+}
+.middle .order-details li:nth-of-type(1) {
+  margin: 0;
+}
+.middle .order-details li a img {
+  margin-left: .3rem;
+  width: .51rem;
+  height: .47rem;
+}
+.middle .order-details li a p {
+  font-size: .24rem;
+  color: #1a1a1a;
+}
+.middle .personal {
+  overflow: hidden;
+}
+.middle .personal li {
+  height: .9rem;
+  line-height: .9rem;
+  border-bottom: .01rem solid #f1f1f1;
+  background-image: url("../img/jiantou.png");
+  background-repeat: no-repeat;
+  background-size: .16rem .3rem ;
+  background-position: 6.88rem .3rem;
+}
+.middle .personal li:nth-of-type(8) {
+  border: none;
+}
+.middle .personal li a img {
+  float: left;
+  width: .37rem;
+  height: .37rem;
+  margin-top: .27rem;
+}
+.middle .personal li a h6 {
+  font-weight: normal;
+  font-size: .32rem;
+  color: #393939;
+  padding-left: .52rem;
+}
+.footer {
+  background: #4383ef;
+  height: .98rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.footer .footerNav {
+  padding-left: .57rem;
+}
+.footer .footerNav li {
+  width: 1rem;
+  padding-top: .62rem;
+  float: left;
+  margin-right: .31rem;
+  display: block;
+  line-height: .36rem;
+  text-align: center;
+  background-image: url("../img/xuebi01.png");
+  background-repeat: no-repeat;
+  background-position: 0 .08rem ;
+  background-size: 5rem .51rem;
+  position: relative;
+}
+.footer .footerNav li a {
+  font-size: .26rem;
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.footer .footerNav li:nth-of-type(2) {
+  background-position: -1rem 0.08rem;
+}
+.footer .footerNav li:nth-of-type(3) {
+  background-position: -2rem 0.08rem;
+}
+.footer .footerNav li:nth-of-type(4) {
+  background-position: -3rem 0.08rem;
+}
+.footer .footerNav li:nth-of-type(5) {
+  background-position: -4rem 0.08rem;
+}
+.footer .footerNav li .Angle {
+  width: 0;
+  height: 0;
+  border-top: .06rem solid transparent;
+  border-right: .07rem solid #989897;
+  border-bottom: 0 solid transparent;
+  position: absolute;
+  top: -0.06rem;
+  left: -0.07rem;
+  display: none;
+}
+.footer .footerNav li .exceeded {
+  display: none;
+  width: 1rem;
+  height: .06rem;
+  background: #eba51e;
+  position: absolute;
+  left: 0;
+  top: -0.06rem;
+}
+.footer .footerNav li.on {
+  background-color: #eba51e;
+}
+.footer .footerNav li.on .Angle,
+.footer .footerNav li.on .exceeded {
+  display: block;
+}

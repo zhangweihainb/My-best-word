@@ -1,0 +1,83 @@
+.header .returnPrev {
+  float: left;
+  display: block;
+  color: #ffffff;
+  font-size: .28rem;
+  padding-left: .26rem;
+  background: url("../img/zuojiantou.png") no-repeat left 0.11rem;
+  background-size: .19rem .35rem;
+  line-height: .6rem;
+}
+.header .search {
+  margin-left: .25rem;
+}
+.content {
+  padding-bottom: .98rem;
+}
+.content .menu {
+  width: 1.96rem;
+  height: 19.08rem;
+  position: fixed;
+  left: 0;
+  top: .88rem;
+  background: #f1f1f1;
+}
+.content .menu li {
+  overflow: hidden;
+  background: #f1f1f1;
+  padding: 0 .2rem;
+  position: relative;
+}
+.content .menu li a {
+  font-size: .32rem;
+  color: #070707;
+  text-align: left;
+  line-height: 1.15rem;
+  display: block;
+  border-bottom: 2px solid #b2b2b2;
+}
+.content .menu li.on {
+  background: #fff;
+}
+.content .menu li.on a {
+  border-bottom: 2px solid #fff;
+  line-height: 1.13rem;
+}
+.content .menu li.on:after {
+  content: '';
+  display: block;
+  height: 1.15rem;
+  width: .04rem;
+  border-radius: .01rem;
+  background: #eba51e;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.content .menuMain {
+  padding: 1.21rem 0 0 1.92rem;
+}
+.content .menuMain .menuMainList {
+  display: none;
+}
+.content .menuMain .menuMainList li {
+  float: left;
+  margin-left: .07rem;
+  text-align: center;
+  width: 2.60rem;
+}
+.content .menuMain .menuMainList li a {
+  display: block;
+}
+.content .menuMain .menuMainList li a img {
+  width: 2.60rem;
+  height: 2.48rem;
+}
+.content .menuMain .menuMainList li p {
+  color: #4b4a4a;
+  font-size: .24rem;
+  line-height: .7rem;
+}
+.content .menuMain .menuMainList.on {
+  display: block;
+}
