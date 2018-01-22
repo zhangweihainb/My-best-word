@@ -135,18 +135,18 @@ header h5 {
 .middle .user .clause .login-mode li:nth-of-type(2) {
   margin-left: .85rem;
 }
-.footer {
+.bottom {
   overflow: hidden;
   margin-top: .6rem;
   margin-bottom: .75rem;
 }
-.footer a {
+.bottom a {
   float: left;
   font-size: .3rem;
   color: #4383ef;
   margin-left: .3rem;
 }
-.footer a:nth-of-type(2) {
+.bottom a:nth-of-type(2) {
   float: right;
   margin-right: .35rem;
 }

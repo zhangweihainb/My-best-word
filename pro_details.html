@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/pro_details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 </head>
 <body>
 
@@ -17,15 +18,19 @@
     <a href="javascript:;"><img src="img/zuojiantou.png" alt=""></a>
     <a href="javascript:;">宝贝</a>
     <a href="javascript:;">评价</a>
-    <a href="javascript:;">详情</a>
-    <a href="javascript:;"><img src="img/gouwuche.png" alt=""></a>
+    <a href="pro_details.html">详情</a>
+    <a href="shop_cart.html"><img src="img/gouwuche.png" alt=""></a>
     <a href="javascript:;"><img src="img/yuandian.png" alt=""></a>
 </header>
 
-
 <div class="middle">
-    <div class="lunbo">
-
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/lunbo1.png" alt=""></div>
+            <div class="swiper-slide"><img src="img/lunbo2.png" alt=""></div>
+            <div class="swiper-slide"><img src="img/lunbo3.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
     </div>
     <div class="name">
         <a href="javascript:;">
@@ -72,12 +77,12 @@
         <span>共<strong>15123</strong> 条评价</span>
     </div>
     <ul class="comment-group container">
-        <li>亮度很好(213)</li>
-        <li>外观漂亮(213)</li>
-        <li>服务很好(213)</li>
-        <li>物流不错(213)</li>
-        <li>价格实惠(213)</li>
-        <li>节能省电(213)</li>
+        <li><a href="javascript:;">亮度很好(213)</a></li>
+        <li><a href="javascript:;">外观漂亮(213)</a></li>
+        <li><a href="javascript:;">服务很好(213)</a></li>
+        <li><a href="javascript:;">物流不错(213)</a></li>
+        <li><a href="javascript:;">价格实惠(213)</a></li>
+        <li><a href="javascript:;">节能省电(213)</a></li>
     </ul>
     <ul class="comment-details container">
         <li>
@@ -127,15 +132,25 @@
         <a href="javascript:;">收藏</a>
     </div>
     <div class="right">
-        <a href="javascript:;">立即购买</a>
+        <a href="pay.html">立即购买</a>
     </div>
     <div class="central">
         <a href="javascript:;">加入购物车</a>
     </div>
 </div>
 
-
 <script src="lib/jQuery.min.js"></script>
 <script src="lib/company.js"></script>
+<script src="lib/swiper-3.4.2.min.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+        autoplay: 2000,
+
+    })
+</script>
 </body>
 </html>

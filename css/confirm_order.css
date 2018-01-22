@@ -1,0 +1,326 @@
+body {
+  background: #fff;
+}
+.header .returnPrev {
+  float: left;
+  display: block;
+  color: #ffffff;
+  font-size: .28rem;
+  padding-left: .26rem;
+  background: url("../img/zuojiantou.png") no-repeat left 0.11rem;
+  background-size: .19rem .35rem;
+  line-height: .6rem;
+}
+.header .headerTitle {
+  color: #ffffff;
+  font-size: .36rem;
+  line-height: .6rem;
+  float: left;
+  margin-left: 1.8rem;
+}
+.content {
+  padding-bottom: 1rem;
+}
+.content .addressManagement {
+  margin-top: .88rem;
+  padding: .36rem .2rem .36rem .7rem;
+  background: url("../img/bg14.png") no-repeat 0.2rem;
+  background-size: .27rem .37rem;
+}
+.content .addressManagement a {
+  display: block;
+  width: 100%;
+  height: .96rem;
+  line-height: .48rem;
+  background: url("../img/bg15.png") no-repeat right;
+  background-size: .13rem .25rem;
+}
+.content .addressManagement a p {
+  color: #3b3b3b;
+  font-size: .24rem;
+  float: left;
+  line-height: .48rem;
+}
+.content .addressManagement a p.telephone {
+  float: right;
+  margin-right: .92rem;
+}
+.content .proDetails {
+  padding: 0 .2rem;
+  background: #e2e2e2;
+  position: relative;
+  margin-bottom: .3rem;
+}
+.content .proDetails a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content .proDetails a img {
+  width: 2.08rem;
+  height: 2.15rem;
+  float: left;
+}
+.content .proDetails a .menuListRight {
+  position: relative;
+  float: right;
+}
+.content .proDetails a .menuListRight .listTitle {
+  padding-right: .6rem;
+  color: #3c3b3b;
+  font-size: .24rem;
+  text-align: left;
+  width: 4.05rem;
+  line-height: .42rem;
+  padding-top: .12rem;
+}
+.content .proDetails a .menuListRight .proColor {
+  color: #939292;
+  font-size: .24rem;
+  text-align: left;
+  line-height: .72rem;
+}
+.content .proDetails a .menuListRight .number {
+  color: #939292;
+  font-size: .24rem;
+  text-align: right;
+  position: absolute;
+  bottom: .2rem;
+  right: .5rem;
+}
+.content .proDetails a .menuListRight .price {
+  color: #f31e1e;
+  text-align: left;
+  font-size: .2rem;
+  line-height: .38rem;
+}
+.content .proDetails a .menuListRight .price span {
+  font-size: .36rem;
+}
+.content .options {
+  padding: 0 .2rem;
+}
+.content .options div {
+  border-bottom: 1px solid #e2e2e2;
+}
+.content .options div a {
+  display: block;
+  color: #464646;
+  font-size: .24rem;
+  line-height: .76rem;
+}
+.content .options div a p {
+  float: left;
+}
+.content .options div a span {
+  float: right;
+  padding-right: .3rem;
+  background: url("../img/bg16.png") no-repeat right;
+  background-size: .12rem .22rem;
+}
+.content .options div.FreightInsurance a span {
+  padding-right: .7rem;
+  font-size: .24rem;
+  color: #949494;
+}
+.content .options div.invoiceName span {
+  float: left;
+  background: none;
+  padding-left: .17rem;
+}
+.content .options div.LeaveAMessage {
+  border-bottom: none;
+}
+.content .options div.LeaveAMessage p {
+  float: left;
+  color: #464646;
+  font-size: .24rem;
+  line-height: .76rem;
+}
+.content .options div.LeaveAMessage textarea {
+  float: left;
+  width: 5.7rem;
+  color: #464646;
+  font-size: .24rem;
+  height: .76rem;
+  line-height: .76rem;
+  text-indent: .1rem;
+}
+.content .options div.LeaveAMessage textarea::placeholder {
+  color: #464646;
+  font-size: .24rem;
+}
+.content .subtotal {
+  margin-top: 1.38rem;
+  line-height: 1.14rem;
+  font-size: .28rem;
+  color: #464646;
+  text-align: right;
+  padding: 0 .2rem;
+}
+.content .subtotal .subtotalInfo {
+  color: #ef1717;
+  font-size: .2rem;
+  margin-left: .3rem;
+}
+.content .subtotal .subtotalInfo .subtotal {
+  font-size: .3rem;
+  font-style: normal;
+  color: #ef1717;
+}
+.payment {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.56);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  display: none;
+}
+.payment .payMain {
+  padding: .3rem 0 .43rem;
+  width: 100%;
+  height: 58%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+}
+.payment .payMain .payTitle {
+  line-height: .5rem;
+  padding: 0 .2rem .35rem;
+  border-bottom: 1px solid #dddddd;
+}
+.payment .payMain .payTitle button {
+  float: left;
+  width: .37rem;
+  height: .5rem;
+  background: url("../img/bg17.png") no-repeat left 0.07rem;
+  background-size: .37rem;
+}
+.payment .payMain .payTitle h5 {
+  color: #222121;
+  font-size: .4rem;
+  float: left;
+  margin-left: 2.38rem;
+}
+.payment .payMain .payTitle a {
+  width: .35rem;
+  height: .5rem;
+  float: right;
+  background: url("../img/bg18.png") no-repeat left 0.08rem;
+  background-size: .35rem;
+}
+.payment .payMain .account,
+.payment .payMain .payClass {
+  padding: 0 .2rem;
+  border-bottom: 1px solid #dddddd;
+  line-height: .8rem;
+}
+.payment .payMain .account a,
+.payment .payMain .payClass a {
+  color: #515050;
+  display: block;
+}
+.payment .payMain .account p:first-child,
+.payment .payMain .payClass p:first-child {
+  float: left;
+}
+.payment .payMain .account p:first-child a,
+.payment .payMain .payClass p:first-child a {
+  font-size: .28rem;
+}
+.payment .payMain .account p:last-child,
+.payment .payMain .payClass p:last-child {
+  float: right;
+}
+.payment .payMain .account p:last-child a,
+.payment .payMain .payClass p:last-child a {
+  font-size: .24rem;
+}
+.payment .payMain .payClass p:last-child {
+  float: right;
+}
+.payment .payMain .payClass p:last-child a {
+  font-size: .24rem;
+  background: url("../img/bg19.png") no-repeat right;
+  background-size: .17rem .31rem;
+  padding-right: .32rem;
+}
+.payment .payMain .payMoney {
+  padding: 0 .2rem;
+  border-bottom: 1px solid #dddddd;
+  line-height: .8rem;
+}
+.payment .payMain .payMoney a {
+  color: #515050;
+  display: block;
+}
+.payment .payMain .payMoney p:first-child {
+  float: left;
+}
+.payment .payMain .payMoney p:first-child a {
+  font-size: .28rem;
+}
+.payment .payMain .payMoney p:last-child {
+  float: right;
+}
+.payment .payMain .payMoney p:last-child a {
+  font-size: .24rem;
+  color: #e41515;
+}
+.payment .payMain .btn {
+  width: 7.1rem;
+  padding: 0 .2rem;
+  position: absolute;
+  bottom: .43rem;
+  left: 50%;
+  margin-left: -3.55rem;
+}
+.payment .payMain .btn a {
+  display: block;
+  width: 100%;
+  height: .8rem;
+  line-height: .8rem;
+  text-align: center;
+  color: #fff;
+  font-size: .36rem;
+  background: #4383ef;
+}
+.bottom {
+  width: 100%;
+  line-height: .96rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+}
+.bottom p {
+  width: 5.23rem;
+  height: .96rem;
+  border: 1px solid #e2e2e2;
+  border-right: none;
+  font-size: .28rem;
+  text-align: right;
+  color: #464545;
+  float: left;
+}
+.bottom p span {
+  color: #f81a1a;
+  margin-left: .2rem;
+  margin-right: .45rem;
+}
+.bottom p span i {
+  font-style: normal;
+}
+.bottom button {
+  float: left;
+  width: 2.25rem;
+  height: 1rem;
+  background: #4383ef;
+  color: #ffffff;
+  font-size: .3rem;
+  line-height: .98rem;
+  text-align: center;
+}

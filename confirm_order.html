@@ -2,15 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>确认订单</title>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/confirm_order.css">
 </head>
 <body>
 
-
-
-
-<script src="lib/jQuery.min.js"></script>
+<div class="header clearFix">
+    <button class="returnPrev">返回</button>
+    <h2 class="headerTitle">确认订单</h2>
+</div>
+<div class="content">
+    <div class="addressManagement clearFix">
+        <a href="#">
+            <p class="consignee">收货人：<span class="userName">李先生</span></p>
+            <p class="telephone">18810281374</p>
+            <p class="address">收货地址：<span class="detailsAddress">河北省承德市富华山庄0号楼九单元1401</span></p>
+        </a>
+    </div>
+    <div class="proDetails">
+        <a class="clearFix" href="#">
+            <img src="img/pic21.png" alt="">
+            <div class="menuListRight">
+                <h5 class="listTitle">LED吸顶灯长方形客厅灯餐厅阳台灯饰大气房间卧室灯灯具</h5>
+                <p class="proColor">颜色:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(<span>白色</span>)</p>
+                <p class="price">￥<span>899.00</span></p>
+                <p class="number">X<span>1</span></p>
+            </div>
+        </a>
+    </div>
+    <div class="options">
+        <div class="afterSales clearFix"><a href="#"><p>售后服务</p><span>全国联保</span></a></div>
+        <div class="courierWay clearFix"><a href="#"><p>配送方式</p><span>快递免邮</span></a></div>
+        <div class="FreightInsurance clearFix"><a href="#"><p>运费险</p><span>卖家赠送,若确认收货前退货，可获保险赔付</span></a></div>
+        <div class="invoiceClass clearFix"><a href="#"><p>发票类型</p><span>电子发票</span></a></div>
+        <div class="invoiceName clearFix"><a href="#"><p>发票抬头:</p><span>刘先生</span></a></div>
+        <div class="LeaveAMessage clearFix"><p>买家留言：</p><textarea placeholder="选择：对本次交易的说明"></textarea></div>
+    </div>
+    <div class="subtotal">
+        <p>共<span class="numb">1</span>件商品&nbsp;&nbsp;&nbsp;&nbsp;小计:<span class="subtotalInfo">￥<i class="subtotal">2999.00</i></span></p>
+    </div>
+</div>
+<div class="bottom clearFix">
+    <p>合计:<span>￥<i>4388.00</i></span></p>
+    <button id="submitOrder">提交订单</button>
+</div>
+<div class="payment" id="payment">
+    <div class="payMain">
+        <div class="payTitle clearFix">
+            <button id="closeBtn"></button>
+            <h5>付款详情</h5>
+            <a href="#"></a>
+        </div>
+        <div class="account clearFix">
+            <p><a href="javascript:;">支付宝账号</a></p>
+            <p><a href="#">621****@qq.com</a></p>
+        </div>
+        <div class="payClass clearFix">
+            <p><a href="javascript:;">付款方式</a></p>
+            <p><a href="#">广州天地银行（9136）</a></p>
+        </div>
+        <div class="payMoney clearFix">
+            <p><a href="javascript:;">需付款</a></p>
+            <p><a href="javascript:;"><span>4399.00</span>元</a></p>
+        </div>
+        <button class="btn"><a href="#">确认付款</a></button>
+    </div>
+</div>
+<script src="js/jQuery.min.js"></script>
+<script src="js/confirm_order.js"></script>
+<script src="js/company.js"></script>
 </body>
 </html>

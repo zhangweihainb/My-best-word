@@ -60,6 +60,150 @@ button {
   clear: both;
 }
 .container {
-  padding: .0rem .20rem;
+  padding: 0 .2rem;
   overflow: hidden;
+}
+.header {
+  width: 7.1rem;
+  padding: .14rem .2rem;
+  background: #4383ef;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+}
+.header .scanning {
+  float: left;
+  width: .76rem;
+  text-align: center;
+}
+.header .scanning img {
+  margin-left: .18rem;
+  width: .38rem;
+  height: .38rem;
+}
+.header .scanning span {
+  font-size: .24rem;
+  color: #fdfdfd;
+  display: block;
+}
+.header .search {
+  float: left;
+  width: 4.75rem;
+  position: relative;
+  height: .6rem;
+  border-radius: 3px;
+  background: #ffffff url("../img/bg01.png") no-repeat 0.18rem;
+  background-size: .34rem;
+  margin-left: .47rem;
+}
+.header .search input {
+  margin-left: .7rem;
+  width: 3.6rem;
+  height: .6rem;
+  display: block;
+  line-height: .6rem;
+  color: #bcbcbc;
+  font-size: .24rem;
+}
+.header .search input::placeholder {
+  color: #bcbcbc;
+  font-size: .24rem;
+}
+.header .search button {
+  position: absolute;
+  top: 50%;
+  margin-top: -0.1rem;
+  right: .22rem;
+  width: .2rem;
+  height: .2rem;
+  background: url("../img/bg02.png") no-repeat;
+  background-size: .2rem;
+}
+.header .theMessage {
+  float: right;
+  width: .65rem;
+  text-align: center;
+}
+.header .theMessage img {
+  margin-left: .15rem;
+  width: .38rem;
+  height: .38rem;
+}
+.header .theMessage span {
+  font-size: .24rem;
+  color: #fdfdfd;
+  display: block;
+}
+.footer {
+  background: #4383ef;
+  height: .98rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999999;
+  width: 100%;
+}
+.footer .footerNav {
+  padding-left: .57rem;
+}
+.footer .footerNav li {
+  width: 1rem;
+  padding-top: .62rem;
+  float: left;
+  margin-right: .31rem;
+  display: block;
+  line-height: .36rem;
+  text-align: center;
+  background-image: url("../img/xuebi01.png");
+  background-repeat: no-repeat;
+  background-position: 0 .08rem ;
+  background-size: 5rem .51rem;
+  position: relative;
+}
+.footer .footerNav li a {
+  font-size: .26rem;
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.footer .footerNav li:nth-of-type(2) {
+  background-position: -1rem 0.08rem;
+}
+.footer .footerNav li:nth-of-type(3) {
+  background-position: -2rem 0.08rem;
+}
+.footer .footerNav li:nth-of-type(4) {
+  background-position: -3rem 0.08rem;
+}
+.footer .footerNav li:nth-of-type(5) {
+  background-position: -4rem 0.08rem;
+}
+.footer .footerNav li .Angle {
+  width: 0;
+  height: 0;
+  border-top: .06rem solid transparent;
+  border-right: .07rem solid #989897;
+  border-bottom: 0 solid transparent;
+  position: absolute;
+  top: -0.06rem;
+  left: -0.07rem;
+  display: none;
+}
+.footer .footerNav li .exceeded {
+  display: none;
+  width: 1rem;
+  height: .06rem;
+  background: #eba51e;
+  position: absolute;
+  left: 0;
+  top: -0.06rem;
+}
+.footer .footerNav li.on {
+  background-color: #eba51e;
+}
+.footer .footerNav li.on .Angle,
+.footer .footerNav li.on .exceeded {
+  display: block;
 }

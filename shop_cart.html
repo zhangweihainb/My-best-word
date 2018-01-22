@@ -19,7 +19,7 @@
     <span>编辑</span>
 </header>
 
-<div class="middle container">
+<div class="middle container" id="product">
     <div class="discount">
         <p>满减</p>
         <span>已享“满100元减1元”</span>
@@ -32,10 +32,10 @@
         <div class="right">
             <h6>LED吸顶灯长方形客厅灯餐厅阳台灯饰大气房间卧室灯灯具</h6>
             <p>颜色：<span>（白色）</span></p>
-            <strong>￥899.00</strong>
+            <strong id="unitPrice">￥899.00</strong>
             <div class="num">
                 <button class="reduce">-</button>
-                <input type="tel" value="1">
+                <input type="tel" class="number" value="1">
                 <button class="plus">+</button>
             </div>
         </div>
@@ -51,7 +51,7 @@
             <strong>￥899.00</strong>
             <div class="num">
                 <button class="reduce">-</button>
-                <input type="tel" value="1">
+                <input type="tel" class="number" value="1">
                 <button class="plus">+</button>
             </div>
         </div>
@@ -67,7 +67,7 @@
             <strong>￥899.00</strong>
             <div class="num">
                 <button class="reduce">-</button>
-                <input type="tel" value="1">
+                <input type="tel" class="number" value="1">
                 <button class="plus">+</button>
             </div>
         </div>
@@ -87,13 +87,13 @@
         <a href="javascript:;">请结算 （<span>2</span>）</a>
     </div>
     <div class="central">
-        <p>合计：￥<span>1499.00</span></p>
+        <p>合计：￥<span id="total">1499.00</span></p>
         <span class="price">免运费 已优惠：￥1元</span>
     </div>
 </div>
 
-
 <script src="lib/jQuery.min.js"></script>
 <script src="lib/company.js"></script>
+<script src="js/shop_cart.js"></script>
 </body>
 </html>

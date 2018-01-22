@@ -10,6 +10,7 @@ header {
     font-size: .28rem;
     &:nth-of-type(1) {
       line-height: 1.1rem;
+      margin-top: .2rem;
     }
     &:nth-of-type(2) {
       margin-left: 1rem;
@@ -28,22 +29,42 @@ header {
     &:nth-of-type(5) {
       margin-left: .65rem;
       line-height: 1.3rem;
+      margin-top: .2rem;
     }
     &:nth-of-type(6) {
       margin-left: .35rem;
       line-height: .7rem;
+      margin-top: .4rem;
     }
   }
 }
 
 .middle {
-  .lunbo {
-    height: 4.65rem;
+  .swiper-container {
+    .middle .swiper-container .swiper-pagination-bullet-active {
+      width: .2rem;
+      height: .2rem;
+    }
+    .swiper-pagination-bullet{
+      width: .19rem;
+      height: .19rem;
+      background: #ffffff;
+      border: .01rem solid #ffffff;
+    }
+   .swiper-wrapper{
+     .swiper-slide{
+       img{
+         width: 7.5rem;
+         height: 4.65rem;
+       }
+     }
+   }
   }
   .name {
     overflow: hidden;
     a {
       p {
+        margin-top: .35rem;
         float: left;
         width: 5.1rem;
         font-size: .26rem;
@@ -281,17 +302,18 @@ header {
     overflow: hidden;
     margin-top: .15rem;
     li {
-      margin-top: .2rem;
-      margin-left: .4rem;
-      float: left;
-      font-size: .24rem;
-      color: #5c5a5a;
-      width: 1.75rem;
-      height: .5rem;
-      background: #f1f1f1;
-      line-height: .5rem;
-      text-align: center;
-
+      a{
+        margin-top: .2rem;
+        margin-left: .4rem;
+        float: left;
+        font-size: .24rem;
+        color: #5c5a5a;
+        width: 1.75rem;
+        height: .5rem;
+        background: #f1f1f1;
+        line-height: .5rem;
+        text-align: center;
+      }
     }
   }
   .comment-details {
@@ -413,7 +435,6 @@ header {
       height: 3.75rem;
     }
   }
-
 }
 
 .footer {
